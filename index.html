@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Online Working Platform</title>
+<style>
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Styling for the logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .logo img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+  /* Styling for the navigation bar */
+  nav {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+  nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #555;
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  .project:hover {
+    transform: scale(1.02);
+  }
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  form button:hover {
+    background-color: #555;
+  }
+  .blog {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .blog h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .blog h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .blog h4 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .blog p {
+    margin-bottom: 20px;
+  }
+  .thanks {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+  }
+  .comments {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .comment-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  .comment-form input,
+  .comment-form textarea,
+  .comment-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  .comment-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .comment-form button:hover {
+    background-color: #555;
+  }
+  .comment-list {
+    margin-top: 20px;
+  }
+  .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <!-- Logo and website name -->
+    <div class="logo">
+      <img src=""C:\Users\HP\Downloads\online.jpg"" alt="Your Logo">
+      <h1>Your Online Working Platform</h1>
+    </div>
+    <p>Your Web Development, Video Editing, and Graphic Design Expert</p>
+    <!-- Navigation bar -->
+    <nav>
+      <a href="#projects">Available Projects</a>
+      <a href="#contact">Contact Me</a>
+      <a href="#blog">Blog</a>
+      <a href="#why-choose-us">Why Choose Us</a>
+    </nav>
+    <!-- About your work paragraph -->
+    <p>Hello! I'm here to bring your creative visions to life. With expertise in web development, video editing, and graphic design, I'm dedicated to crafting captivating digital experiences tailored to your unique needs. I take pride in delivering high-quality results efficiently, ensuring that your projects are completed promptly. I'm new here, but I'm confident you'll be pleased with the outcome of my work. Let's collaborate and create something exceptional together!</p>
+  </header>
+  <div class="front-page">
+    <div class="container">
+      <h1>Welcome to Your Online Working Platform</h1>
+      <p>Your one-stop destination for Web Development, Video Editing, and Graphic Design services.</p>
+      <a href="#projects" class="cta-button">Explore Available Projects</a>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="projects">Available Projects</h2>
+    <div class="projects" id="projects-list">
+      <!-- Project listings will be displayed here -->
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Website Redesign</h3>
+        <p>Revamp your online presence with a modern and responsive website redesign.</p>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Video Montage</h3>
+        <p>Create a stunning video montage for your special occasion or business promotion.</p>
+      </div>
+      <div class="project">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Logo Design</h3>
+        <p>Enhance your brand identity with a unique and memorable logo design.</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="contact">Contact Me</h2>
+    <form id="contact-form" onsubmit="submitForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p style="margin-top: 10px;">You can also reach me at <a href="mailto:sharmakanak389@gmail.com">sharmakanak389@gmail.com</a></p>
+  </div>
+  <div class="container">
+    <div class="blog" id="blog">
+      <h2>Latest Blog Post</h2>
+      <h3>Unleashing Creativity: Website Development, Video Editing, and Graphic Design</h3>
+      <p>In today's digital age, the art of creativity has found its perfect canvas through the realms of website development, video editing, and graphic design. These three pillars of modern visual storytelling allow businesses, artists, and individuals to capture attention, convey messages, and leave lasting impressions.</p>
+      <h4>Website Development</h4>
+      <p>Building a website is like constructing a virtual universe where ideas come to life. From sleek corporate pages to immersive blogs, the possibilities are limitless. A well-crafted website is more than just code – it's a symphony of design and functionality that welcomes visitors and guides them through a captivating journey.</p>
+      <h4>Video Editing</h4>
+      <p>Video has become the heartbeat of online communication. Video editing transforms raw footage into cinematic experiences. From promotional videos that showcase a product's brilliance to heartfelt documentaries that tell a compelling story, video editing adds the magic touch that engages and resonates.</p>
+      <h4>Graphic Design</h4>
+      <p>Graphic design is the language of visual aesthetics. Logos, posters, and branding materials are the brushstrokes of a brand's identity. A harmonious blend of colors, typography, and imagery creates visuals that evoke emotions and leave an indelible mark.</p>
+      <p>At <strong>Your Online Working Platform</strong>, I am dedicated to mastering these crafts and channeling their power to meet your unique needs. Whether it's crafting a stunning website, weaving a narrative through video, or creating visuals that captivate, I'm committed to bringing your vision to life.</p>
+      <p>Join me in this exciting journey of creativity, innovation, and boundless possibilities.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="why-choose-us" id="why-choose-us">
+      <h2>Why Choose Us</h2>
+      <p>We are a team of dedicated and passionate professionals, ready to bring your ideas to life. Here's why you should choose us:</p>
+      <ol>
+        <li>Expertise in Web Development, Video Editing, and Graphic Design.</li>
+        <li>Creative and innovative solutions tailored to your unique needs.</li>
+        <li>High-quality work delivered efficiently and promptly.</li>
+        <li>Attention to detail and a keen eye for design aesthetics.</li>
+        <li>Commitment to exceeding your expectations and bringing your vision to reality.</li>
+        <li>Collaborative approach, ensuring your input and ideas are valued and incorporated.</li>
+        <li>Passion for delivering results that leave a lasting impact.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="container">
+    <div class="comments" id="comments">
+      <h2>Comments</h2>
+      <div class="comment-form">
+        <h3>Leave a Comment</h3>
+        <form id="comment-form" onsubmit="submitComment(event)">
+          <label for="comment-name">Name:</label>
+          <input type="text" id="comment-name" name="comment-name" required>
+          <label for="comment-message">Comment:</label>
+          <textarea id="comment-message" name="comment-message" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="comment-list" id="comment-list">
+        <!-- Comments will be displayed here -->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="thanks">
+      <p>Thanks for visiting Your Online Working Platform!</p>
+    </div>
+  </div>
+  <script>
+    // JavaScript for project, contact form, blog, comment functionality can remain the same
+  </script>
+</body>
+</html>
+
